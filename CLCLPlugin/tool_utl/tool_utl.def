@@ -1,0 +1,23 @@
+; tool_utl.def: объ€вл€ет параметры модул€ дл€ библиотеки DLL.
+
+LIBRARY
+
+EXPORTS
+	get_tool_info_w
+
+	clear_history
+	clear_history_property
+
+	clear_clipboard
+	clear_clipboard_property
+
+	play_sound
+	play_sound_property
+
+	ztop
+	ztop_property
+	unztop
+	unztop_property
+
+	multi_save
+	multi_save_property

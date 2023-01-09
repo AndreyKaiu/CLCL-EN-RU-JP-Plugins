@@ -1,0 +1,9 @@
+; tool_history.def: declares module options for a DLL.
+
+LIBRARY
+
+EXPORTS
+	get_tool_info_w
+
+	tree_history
+	tree_history_property

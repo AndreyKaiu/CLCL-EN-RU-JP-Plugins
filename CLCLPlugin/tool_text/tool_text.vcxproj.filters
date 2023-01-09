@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tool_text.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="convert_date.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="delete_crlf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="euc_to_sjis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jis_to_sjis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="join_text.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="put_text.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quote.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sjis_to_euc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sjis_to_jis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="text_edit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="to_lower.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="to_upper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tool_text.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unquote.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="word_break.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="String.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="File.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="tool_text.rc">
+      <Filter>Resource files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="tool_text_en.txt" />
+    <Text Include="tool_text_ru.txt" />
+    <Text Include="tool_text_jp.txt" />
+    <Text Include="Readme.txt" />
+  </ItemGroup>
+</Project>

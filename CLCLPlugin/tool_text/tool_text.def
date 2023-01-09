@@ -1,0 +1,44 @@
+﻿; tool_text.def: объявляет параметры модуля для библиотеки DLL.
+
+LIBRARY 
+
+EXPORTS    
+	get_tool_info_w
+
+	convert_date
+	convert_date_property
+
+	to_lower
+	to_lower_property
+	to_upper
+	to_upper_property
+
+	sjis_to_jis
+	sjis_to_jis_property
+	jis_to_sjis
+	jis_to_sjis_property
+
+	sjis_to_euc
+	sjis_to_euc_property
+	euc_to_sjis
+	euc_to_sjis_property
+
+	quote
+	quote_property
+	unquote
+	unquote_property
+
+	word_break
+	word_break_property
+
+	put_text
+	put_text_property
+
+	delete_crlf
+	delete_crlf_property
+
+	join_text
+	join_text_property
+
+	text_edit
+	text_edit_property

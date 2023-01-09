@@ -1,0 +1,6 @@
+start cmd /c ""CLCL.bat""
+start cmd /c ""tool-find.bat""
+start cmd /c ""tool-history.bat""
+start cmd /c ""tool-text.bat""
+start cmd /c ""tool-utl.bat""
+start cmd /c ""CLCL_all_plugins.bat""

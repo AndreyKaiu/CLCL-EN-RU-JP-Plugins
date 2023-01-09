@@ -195,16 +195,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\ico00002.ico">
-      <Filter>Resource Files</Filter>
-    </Image>
     <Image Include="res\ico00003.ico">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="res\ico00005.ico">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="icon_mai.ico">
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="res\icon_mai.ico">
