@@ -102,6 +102,9 @@
     <ClCompile Include="..\dpi.c">
       <Filter>Source Files\CLCL Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Window.c">
+      <Filter>Source Files\CLCL Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="CLCLSet.rc">
@@ -191,6 +194,12 @@
       <Filter>Header Files\CLCL Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\dpi.h">
+      <Filter>Header Files\CLCL Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Window.h">
       <Filter>Header Files\CLCL Header Files</Filter>
     </ClInclude>
   </ItemGroup>

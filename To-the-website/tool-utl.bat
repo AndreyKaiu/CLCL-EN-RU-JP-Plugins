@@ -16,7 +16,10 @@ Set Vers=Ver_%Version:.=_%_EN
 REM List of files to archive
 Set PF1=%Pth1%\CLCLPlugin\tool_utl\EN_Release\tool_utl.dll
 Set PF2=%Pth1%\CLCLPlugin\tool_utl\tool_utl_en.txt
-Set pFiles=%PF1% %PF2%
+Set PF3=%Pth1%\CLCLPlugin\tool_utl\tool_utl_sound1.wav
+Set PF4=%Pth1%\CLCLPlugin\tool_utl\tool_utl_sound2.wav
+Set PF5=%Pth1%\CLCLPlugin\tool_utl\tool_utl_sound3.wav
+Set pFiles=%PF1% %PF2% %PF3% %PF4% %PF5%
 
 Set zipF=%PthBAT%\EN\tool_utl_%Vers%.zip
 
@@ -37,7 +40,10 @@ Set Vers=Ver_%Version:.=_%_JP
 REM List of files to archive
 Set PF1=%Pth1%\CLCLPlugin\tool_utl\JP_Release\tool_utl.dll
 Set PF2=%Pth1%\CLCLPlugin\tool_utl\tool_utl_jp.txt
-Set pFiles=%PF1% %PF2%
+Set PF3=%Pth1%\CLCLPlugin\tool_utl\tool_utl_sound1.wav
+Set PF4=%Pth1%\CLCLPlugin\tool_utl\tool_utl_sound2.wav
+Set PF5=%Pth1%\CLCLPlugin\tool_utl\tool_utl_sound3.wav
+Set pFiles=%PF1% %PF2% %PF3% %PF4% %PF5%
 
 Set zipF=%PthBAT%\JP\tool_utl_%Vers%.zip
 
@@ -58,7 +64,10 @@ Set Vers=Ver_%Version:.=_%_RU
 REM List of files to archive
 Set PF1=%Pth1%\CLCLPlugin\tool_utl\RU_Release\tool_utl.dll
 Set PF2=%Pth1%\CLCLPlugin\tool_utl\tool_utl_ru.txt
-Set pFiles=%PF1% %PF2%
+Set PF3=%Pth1%\CLCLPlugin\tool_utl\tool_utl_sound1.wav
+Set PF4=%Pth1%\CLCLPlugin\tool_utl\tool_utl_sound2.wav
+Set PF5=%Pth1%\CLCLPlugin\tool_utl\tool_utl_sound3.wav
+Set pFiles=%PF1% %PF2% %PF3% %PF4% %PF5%
 
 Set zipF=%PthBAT%\RU\tool_utl_%Vers%.zip
 

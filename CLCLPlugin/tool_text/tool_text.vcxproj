@@ -286,17 +286,22 @@
     <None Include="tool_text.def" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Profile.h" />
+    <ClInclude Include="..\CLCLPlugin.h" />
     <ClInclude Include="File.h" />
+    <ClInclude Include="Font.h" />
     <ClInclude Include="Memory.h" />
     <ClInclude Include="Message.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="String.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Profile.c" />
     <ClCompile Include="convert_date.c" />
     <ClCompile Include="delete_crlf.c" />
     <ClCompile Include="euc_to_sjis.c" />
     <ClCompile Include="File.c" />
+    <ClCompile Include="Font.c" />
     <ClCompile Include="jis_to_sjis.c" />
     <ClCompile Include="join_text.c" />
     <ClCompile Include="Memory.c" />

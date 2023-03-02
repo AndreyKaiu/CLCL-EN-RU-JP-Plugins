@@ -315,6 +315,27 @@
     <Image Include="res\toolbar48.bmp">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="res\ico00001_ban.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar24.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00006_1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1_1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon_history.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Xml Include="res\manifest.xml">

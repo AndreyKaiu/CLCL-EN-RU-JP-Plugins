@@ -260,6 +260,7 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="File.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="Memory.h" />
     <ClInclude Include="Message.h" />
@@ -268,6 +269,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="File.c" />
     <ClCompile Include="Memory.c" />
     <ClCompile Include="Message.c" />
     <ClCompile Include="multi_save.c" />

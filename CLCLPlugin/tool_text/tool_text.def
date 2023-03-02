@@ -9,9 +9,9 @@ EXPORTS
 	convert_date_property
 
 	to_lower
-	to_lower_property
+	; to_lower_property
 	to_upper
-	to_upper_property
+	; to_upper_property
 
 	sjis_to_jis
 	sjis_to_jis_property
@@ -25,20 +25,26 @@ EXPORTS
 
 	quote
 	quote_property
+	quote_property2
 	unquote
 	unquote_property
+	unquote_property2
 
 	word_break
 	word_break_property
+	word_break_property2
 
 	put_text
 	put_text_property
+	put_text_property2
 
 	delete_crlf
 	delete_crlf_property
+	delete_crlf_property2
 
 	join_text
 	join_text_property
+	join_text_property2
 
 	text_edit
-	text_edit_property
+	; text_edit_property

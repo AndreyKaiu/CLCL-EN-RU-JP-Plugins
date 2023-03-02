@@ -423,16 +423,23 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\ico00001.ico" />
+    <Image Include="res\ico00001_ban.ico" />
     <Image Include="res\ico00002.ico" />
     <Image Include="res\ico00003.ico" />
     <Image Include="res\ico00004.ico" />
     <Image Include="res\ico00006.ico" />
+    <Image Include="res\ico00006_1.ico" />
     <Image Include="res\icon1.ico" />
+    <Image Include="res\icon1_1.ico" />
+    <Image Include="res\icon2.ico" />
     <Image Include="res\icon_etc.ico" />
     <Image Include="res\icon_fil.ico" />
+    <Image Include="res\icon_history.ico" />
     <Image Include="res\icon_pic.ico" />
     <Image Include="res\icon_str.ico" />
     <Image Include="res\toolbar1.bmp" />
+    <Image Include="res\toolbar20.bmp" />
+    <Image Include="res\toolbar24.bmp" />
     <Image Include="res\toolbar32.bmp" />
     <Image Include="res\toolbar48.bmp" />
   </ItemGroup>
