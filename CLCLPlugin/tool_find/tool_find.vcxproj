@@ -289,15 +289,17 @@
     <ClInclude Include="File.h" />
     <ClInclude Include="Memory.h" />
     <ClInclude Include="Message.h" />
+    <ClInclude Include="Profile.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="String.h" />
   </ItemGroup>
-  <ItemGroup>    
+  <ItemGroup>
     <ClCompile Include="File.c" />
     <ClCompile Include="Memory.c" />
-    <ClCompile Include="Message.c" />    
+    <ClCompile Include="Message.c" />
+    <ClCompile Include="Profile.c" />
     <ClCompile Include="String.c" />
-    <ClCompile Include="tool_find.c" />        
+    <ClCompile Include="tool_find.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="tool_find.rc" />

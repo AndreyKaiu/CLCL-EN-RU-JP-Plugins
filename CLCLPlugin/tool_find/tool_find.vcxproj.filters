@@ -35,11 +35,11 @@
     <ClInclude Include="File.h">
       <Filter>Header files</Filter>
     </ClInclude>
+    <ClInclude Include="Profile.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
   </ItemGroup>
-  <ItemGroup>    
-    <ClCompile Include="text_find.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>    
+  <ItemGroup>
     <ClCompile Include="Message.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -50,6 +50,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="File.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tool_find.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
